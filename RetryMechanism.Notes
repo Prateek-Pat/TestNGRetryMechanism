@@ -1,0 +1,9 @@
+
+Retry Mecahnism works on 2 level 
+1) @Test(RetryAnalyzer = PackgeName.ClassName.class)
+	
+	Interrface Used = IRetryAnalyzer
+
+2) RunTime =SeprateClass needs to be created to implement at Runtime
+
+	Interface Used  = IAnnotationTransformer

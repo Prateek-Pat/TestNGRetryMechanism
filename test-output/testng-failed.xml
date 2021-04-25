@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [RetryMechanismImplementation]">
+  <listeners>
+    <listener class-name="RetryMecahnism.MyTransformer"/>
+  </listeners>
+  <test name="Sanity Test(failed)">
+    <classes>
+      <class name="TestRetryAnalyzer.RunTimeRetryTest">
+        <methods>
+          <include name="Test1"/>
+          <include name="Test2"/>
+          <include name="Test3"/>
+          <include name="Test4"/>
+        </methods>
+      </class> <!-- TestRetryAnalyzer.RunTimeRetryTest -->
+    </classes>
+  </test> <!-- Sanity Test(failed) -->
+</suite> <!-- Failed suite [RetryMechanismImplementation] -->
